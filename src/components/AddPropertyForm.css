@@ -1,0 +1,112 @@
+.add-property-form {
+    width: 100%;
+    max-width: 750px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.add-property-form h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #d71b1b;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.add-property-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+/* Label and required mark */
+.add-property-form label {
+    display: block;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.1rem;
+    position: relative;
+}
+
+.add-property-form label .required {
+    color: #d71b1b;
+    margin-left: 3px;
+}
+
+/* Inputs & Textareas */
+.add-property-form input[type="text"],
+.add-property-form input[type="number"],
+.add-property-form textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+#other-type-input {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.add-property-form input:focus,
+.add-property-form textarea:focus {
+    border-color: rgba(255, 78, 78, 0.786);
+}
+
+.add-location,
+.add-map {
+    display: flex;
+    gap: 1rem;
+}
+
+.add-desc textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.add-property-form button {
+    background: #d71b1b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.add-property-form button:hover:not(:disabled) {
+    background: rgba(255, 53, 53, 0.695);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(255, 78, 78, 0.5);
+}
+
+.add-property-form button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.add-property-form input::placeholder,
+.add-property-form textarea::placeholder {
+    color: #333;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+@media (max-width: 425px) {
+
+    .add-location,
+    .add-map {
+        flex-direction: column;
+    }
+}

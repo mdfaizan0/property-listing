@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.property-card {
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.property-details {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.property-details>img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    transition: transform 0.8s;
+}
+
+.property-details>img:hover {
+    transform: scale(1.1);
+}
+
+.prop-details {
+    position: absolute;
+    border-radius: 8px;
+    padding: 24px;
+    bottom: -40%;
+    box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.2), 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.property-card:hover .prop-details {
+    bottom: -45%;
+    padding-bottom: 80px;
+}
+
+.prop-details:hover {
+    transform: translateY(-8px);
+}
+
+.prop-details>h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.prop-type {
+    color: rgba(255, 78, 78);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.prop-location {
+    font-size: 12px;
+}
+
+.prop-location::before {
+    content: "📍";
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.prop-price {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 12px;
+    position: absolute;
+    right: 24px;
+    top: 30%;
+    transition: top 0.3s ease-in-out;
+}
+
+.property-card-btn {
+    background-color: rgba(255, 78, 78, 0.786);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out,
+        background-color 0.2s ease-in-out,
+        opacity 0.5s ease-in-out,
+        box-shadow 0.5s ease-in-out;
+    font-weight: 600;
+    font-size: 18px;
+    transform: translateY(20px);
+    opacity: 0;
+    margin-top: 12px;
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    width: calc(100% - 48px);
+    opacity: 0;
+}
+
+.property-card:hover .property-card-btn {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.property-card:hover .prop-price {
+    top: 20%;
+}
+
+.property-card-btn:hover {
+    background-color: #d71b1b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 78, 78, 0.4);
+}
+
+.prop-desc {
+    margin-top: 8px;
+    color: grey;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+    line-height: 1.3rem;
+}
+
+@media (max-width:425px) {
+    .property-details {
+        width: 380px;
+    }
+
+    .prop-details {
+        width: 90%;
+    }
+}

@@ -1,0 +1,404 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "name": "Sunset Apartments",
+      "type": "Apartment",
+      "price": 7500000,
+      "location": "Bandra West, Mumbai",
+      "latitude": 19.06,
+      "longitude": 72.83,
+      "description": "Spacious 2BHK apartment with a stunning sea view and modern amenities. Spacious 2BHK apartment with a stunning sea view and modern amenities.Spacious 2BHK apartment with a stunning sea view and modern amenities.Spacious 2BHK apartment with a stunning sea view and modern amenities.Spacious 2BHK apartment with a stunning sea view and modern amenities.Spacious 2BHK apartment with a stunning sea view and modern amenities.Spacious 2BHK apartment with a stunning sea view and modern amenities.",
+      "image": "https://r1imghtlak.mmtcdn.com/325902b68fe611ee8f160a58a9feac02.jpg",
+      "amenities": [
+        "24/7 Security",
+        "Sea View Balcony",
+        "Gymnasium",
+        "Reserved Parking",
+        "Power Backup"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Hilltop Villa",
+      "type": "Villa",
+      "price": 25000000,
+      "location": "Khandala, Lonavala",
+      "latitude": 18.76,
+      "longitude": 73.37,
+      "description": "Luxury 4-bedroom villa surrounded by lush green hills, includes a private pool.",
+      "image": "https://www.villasingoa.com/buy-goa-villas/assets/images/villa-for-sale-goa2.jpg",
+      "amenities": [
+        "Private Swimming Pool",
+        "Lawn/Garden Area",
+        "Full House Staff Quarters",
+        "BBQ Deck",
+        "Gated Community Access"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Central Studio",
+      "type": "Studio",
+      "price": 4500000,
+      "location": "Whitefield, Bengaluru",
+      "latitude": 12.97,
+      "longitude": 77.75,
+      "description": "Compact and efficient studio apartment in the heart of the city, perfect for professionals.",
+      "image": "https://www.collegiate-ac.com/propeller/uploads/sites/2/2019/09/studio-8-NXPowerLite-Copy-edited-1450x815.jpg",
+      "amenities": [
+        "Co-working Space",
+        "High-Speed Wi-Fi Ready",
+        "Laundry Facility",
+        "Metro Connectivity",
+        "Modular Kitchenette"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Garden Cottage",
+      "type": "House",
+      "price": 12000000,
+      "location": "Calangute, Goa",
+      "latitude": 15.55,
+      "longitude": 73.76,
+      "description": "Charming 3BHK cottage with a large private garden, near the beach.",
+      "image": "https://img.hireacamp.com/vAUV1461PbcDe1q0b2Fbra-zV5f6xv94ZNOPRF4W/fit-in/3840x3840/filters:quality(75)/uploads/e42194543f764084b1754f937439ab69.jpg",
+      "amenities": [
+        "Private Garden",
+        "Close Proximity to Beach",
+        "Outdoor Seating Area",
+        "Covered Parking",
+        "Pet-Friendly Policy"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Metro Loft",
+      "type": "Loft",
+      "price": 8500000,
+      "location": "Hauz Khas, Delhi",
+      "latitude": 28.55,
+      "longitude": 77.2,
+      "description": "Trendy open-plan loft with high ceilings and industrial design aesthetics.",
+      "image": "https://www.californialofts.com/uploads/california%20lofts.jpeg",
+      "amenities": [
+        "Double-Height Ceiling",
+        "Terrace Access",
+        "Modern Appliances",
+        "Designer Fittings",
+        "Near Cultural Hubs"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Riverside Plot",
+      "type": "Land",
+      "price": 3000000,
+      "location": "Koregaon Park, Pune",
+      "latitude": 18.54,
+      "longitude": 73.89,
+      "description": "Vacant residential plot of 2400 sq ft, ideal for custom construction, riverside location.",
+      "image": "https://shasonline.com/poperty_images/SHAS-000351-0.jpg",
+      "amenities": [
+        "Water & Electricity Connections Ready",
+        "Clear Title Deeds",
+        "Fencing Included",
+        "Good Road Access",
+        "Proximity to Riverfront"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Executive Penthouse",
+      "type": "Penthouse",
+      "price": 45000000,
+      "location": "Bandra West, Mumbai",
+      "latitude": 19.06,
+      "longitude": 72.83,
+      "description": "Ultra-luxurious 5BHK penthouse with panoramic city views and private terrace.",
+      "image": "https://archello.com/thumbs/images/2022/10/17/kca-international-the-penthouse--the-address-beach-resort-apartments-archello.1665992818.5879.jpg?fit=crop&w=1260&h=840",
+      "amenities": [
+        "Private Terrace & Jacuzzi",
+        "Dedicated Elevator Access",
+        "Home Automation System",
+        "Servant Quarters",
+        "Concierge Service",
+        "Gymnasium Access"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Suburban Duplex",
+      "type": "Duplex",
+      "price": 18000000,
+      "location": "Jubilee Hills, Hyderabad",
+      "latitude": 17.43,
+      "longitude": 78.41,
+      "description": "Modern 4BHK duplex house in a quiet suburban neighborhood with great connectivity.",
+      "image": "http://brickwoodhomes.com.au/wp-content/uploads/2024/03/IMG-20211123-WA0003.jpg",
+      "amenities": [
+        "Private Entrance",
+        "Two-Car Garage",
+        "Balcony on Both Floors",
+        "Vastu Compliant Design",
+        "Community Park Access"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Old Town Apartment",
+      "type": "Apartment",
+      "price": 6000000,
+      "location": "Salt Lake, Kolkata",
+      "latitude": 22.59,
+      "longitude": 88.41,
+      "description": "Classic 3BHK apartment with historical charm in the heart of Old Town.",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/159697815.jpg?k=0170f5be0fe6cfb78fed31f9baa0fc6170f1b98a7a42fc8c81902c3b91a3a1c2&o=&hp=1",
+      "amenities": [
+        "Central Location",
+        "Heritage Architecture",
+        "Nearby Metro Station",
+        "Lifts/Elevator",
+        "On-site Maintenance Staff"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Lakeview Farmhouse",
+      "type": "Farmhouse",
+      "price": 35000000,
+      "location": "Mallital, Nainital",
+      "latitude": 29.39,
+      "longitude": 79.46,
+      "description": "Sprawling farmhouse property with acres of land and a magnificent lake view.",
+      "image": "https://media.istockphoto.com/id/104200179/photo/farmhouse-near-ings.jpg?s=612x612&w=0&k=20&c=2pgkGLAkoGnWGlM-qBCLb5KBX-bfdM7H-ua_1P34y1A=",
+      "amenities": [
+        "Direct Lake View",
+        "Large Agricultural Land",
+        "Servant Quarters",
+        "Security Fence",
+        "Private Access Road",
+        "Hiking Trails Nearby"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tech City Co-living",
+      "type": "Apartment",
+      "price": 5500000,
+      "location": "Whitefield, Bengaluru",
+      "latitude": 12.97,
+      "longitude": 77.75,
+      "description": "Furnished 1BHK in a co-living complex, close to major tech parks.",
+      "image": "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/Photo_h310_w462/Project-Photo-1-Tech-City-Phase-2-Coimbatore-5099681_345_1366_310_462_470_1080.jpg",
+      "amenities": [
+        "Fully Furnished",
+        "Shared Kitchen/Lounge",
+        "Wi-Fi & Utilities Included",
+        "Housekeeping Services",
+        "Gaming Zone"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Desert Oasis Resort",
+      "type": "Commercial",
+      "price": 95000000,
+      "location": "Mansarovar, Jaipur",
+      "latitude": 26.86,
+      "longitude": 75.77,
+      "description": "Fully operational boutique resort property with 15 rooms, ready for business.",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/656411102.jpg?k=7e1185b2b5cee354505b239d9266d7b4e14922dcc32f66404c06554bacdbac1a&o=&hp=1",
+      "amenities": [
+        "15 Guest Suites",
+        "Restaurant/Dining Hall",
+        "Swimming Pool",
+        "Ample Tourist Parking",
+        "Solar Water Heating"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Skyline Residence",
+      "type": "Apartment",
+      "price": 11000000,
+      "location": "Velachery, Chennai",
+      "latitude": 12.98,
+      "longitude": 80.22,
+      "description": "High-rise 3BHK apartment with excellent ventilation and city skyline views.",
+      "image": "https://d16gdc5rm7f21b.cloudfront.net/uploads/1748153004246-banner.jpg",
+      "amenities": [
+        "High-Speed Elevators",
+        "Children's Play Area",
+        "Clubhouse Access",
+        "Visitor Parking",
+        "CCTV Surveillance"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Green Valley House",
+      "type": "House",
+      "price": 16000000,
+      "location": "Rajpur Road, Dehradun",
+      "latitude": 30.38,
+      "longitude": 78.09,
+      "description": "Sturdy 5BHK independent house nestled in a quiet green valley.",
+      "image": "https://content.jdmagicbox.com/comp/wayanad/v2/9999p4936.4936.121013111849.t8v2/catalogue/green-valley-holiday-home-meppadi-wayanad-home-stay-ugqdt.jpg",
+      "amenities": [
+        "Large Terrace",
+        "Mountain View",
+        "Rainwater Harvesting",
+        "Fitted Wardrobes",
+        "Close to Popular Market"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Small Retail Space",
+      "type": "Commercial",
+      "price": 4000000,
+      "location": "Koregaon Park, Pune",
+      "latitude": 18.54,
+      "longitude": 73.89,
+      "description": "Small ground-floor retail shop, ideal for a startup or small business.",
+      "image": "https://images.luminati.co.uk/app/uploads/2022/07/pexels-rachel-claire-5490917-scaled.jpg",
+      "amenities": [
+        "Ground Floor Access",
+        "High Foot Traffic Area",
+        "Restroom Facilities",
+        "Glass Frontage",
+        "Near Public Transport"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Luxury Marina View",
+      "type": "Apartment",
+      "price": 22000000,
+      "location": "Bandra West, Mumbai",
+      "latitude": 19.06,
+      "longitude": 72.83,
+      "description": "Premium 4BHK apartment with direct views of the marina and access to high-end facilities.",
+      "image": "https://cdn.confident-group.com/wp-content/uploads/2023/08/09144221/shutterstock_436927078.jpg",
+      "amenities": [
+        "Direct Marina View",
+        "Temperature-Controlled Pool",
+        "Advanced Security System",
+        "Modular Kitchen",
+        "Exclusive Residents' Lounge"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Residential Corner Plot",
+      "type": "Land",
+      "price": 7000000,
+      "location": "Jubilee Hills, Hyderabad",
+      "latitude": 17.43,
+      "longitude": 78.41,
+      "description": "Spacious corner plot of 3000 sq ft in a developing residential layout.",
+      "image": "https://static.360realtors.com/properties/photos/6837/mini/1704283852_0propertyimage.webp",
+      "amenities": [
+        "Corner Plot Advantage",
+        "Wide Roads Access",
+        "Sewage Line Ready",
+        "Developing Community",
+        "Street Lighting"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Heritage Haveli",
+      "type": "Heritage",
+      "price": 60000000,
+      "location": "Fatehsagar Lake, Udaipur",
+      "latitude": 24.6,
+      "longitude": 73.67,
+      "description": "Restored historical Haveli with traditional architecture, suitable for conversion to a hotel.",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/229249654.jpg?k=043cb30d4c7691a4d04479a2ed2aee380c0cfb8c9551da5b4c3e09c0c943fe19&o=&hp=1",
+      "amenities": [
+        "Historical Architecture",
+        "Courtyard & Fountain",
+        "Multiple Guest Rooms",
+        "Close to Lake",
+        "High Tourism Footfall",
+        "Rooftop Dining Potential"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Student Hostel Building",
+      "type": "Commercial",
+      "price": 50000000,
+      "location": "Velachery, Chennai",
+      "latitude": 12.98,
+      "longitude": 80.22,
+      "description": "Multi-story building currently operating as a fully-occupied student hostel.",
+      "image": "https://res.cloudinary.com/hostelling-internation/image/upload/f_auto,q_auto/v1615458730/htvfd9axk0kzjbomq5rf.jpg",
+      "amenities": [
+        "20+ Occupancy Capacity",
+        "Mess/Cafeteria Area",
+        "Separate Male/Female Floors",
+        "Proximity to Universities",
+        "Backup Generator",
+        "Biometric Entry"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Compact 1BHK",
+      "type": "Apartment",
+      "price": 3512000,
+      "location": "Hauz Khas, Delhi",
+      "latitude": 28.55,
+      "longitude": 77.2,
+      "description": "Affordable and newly constructed 1BHK with easy metro access.",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/9/UL/VK/XB/148611311/1-bhk-fully-furnished-apartment-in-orr-surjapure-road.jpg",
+      "amenities": [
+        "New Construction",
+        "Metro Access",
+        "Lift/Elevator",
+        "24-hour Water Supply",
+        "Semi-Furnished"
+      ]
+    },
+    {
+      "name": "Qila-e-Jins",
+      "type": "Farm House",
+      "price": "123456789",
+      "location": "Kolkata, West Bengal",
+      "latitude": 65.44654687654,
+      "longitude": 99.0256644588,
+      "description": "A good property it is.",
+      "image": "https://static.wixstatic.com/media/e0ce5d_fb872945ae0741439993da11be82eeee~mv2.jpg/v1/fill/w_1920,h_1189,al_c/e0ce5d_fb872945ae0741439993da11be82eeee~mv2.jpg",
+      "amenities": [
+        "24/7 Security",
+        "Gymnasium",
+        "Reserved Parking",
+        "Power Backup",
+        "Private Swimming Pool",
+        "Lawn/Garden Area"
+      ],
+      "id": 21
+    },
+    {
+      "name": "Shriram Mystique",
+      "type": "Apartment",
+      "price": "8372000",
+      "location": "Yeshwanthpur, Bangalore",
+      "latitude": 13.081793015150092,
+      "longitude": 77.54694374921681,
+      "description": "If you are looking for ready to move projects, Shriram Mystique is a right choice for you. Here,  a 2BHK Apartment is available at a starting price of Rs. 83.72 L.",
+      "image": "https://newprojects.99acres.com/projects/shriram_properties_bengaluru/shriram_mystique/images/kab4wfl_1746420859_592863843_optOrig.jpg",
+      "amenities": [
+        "Swimming Pool",
+        "Gymnasium",
+        "Clubhouse Access",
+        "Children's Play Area"
+      ],
+      "id": 22
+    }
+  ]
+}

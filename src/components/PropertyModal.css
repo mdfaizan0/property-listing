@@ -1,0 +1,225 @@
+:root {
+    --accent-color: rgba(255, 78, 78, 0.786);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    border-radius: 16px;
+    animation: fadeIn 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content:focus .property-list {
+    pointer-events: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
+}
+
+.modal-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-close-btn {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    font-size: 32px;
+    padding: 0px 9px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out;
+    transform: translateY(0);
+}
+
+.modal-close-btn:hover {
+    transform: translateY(-2px);
+    background: var(--accent-color);
+}
+
+.modal-close-btn img {
+    width: 20px;
+}
+
+.modal-info {
+    padding: 24px 38px;
+}
+
+.modal-name-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.modal-name-type span {
+    padding: 8px 16px;
+    background: var(--accent-color);
+    font-weight: 600;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.modal-location {
+    font-size: 18px;
+    color: #666;
+}
+
+.modal-location::before {
+    content: "📍";
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+.modal-price {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 24px;
+    top: 30%;
+    color: var(--accent-color);
+}
+
+.modal-description {
+    margin-block: 24px;
+}
+
+.modal-description h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.modal-description p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.modal-amenities {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+    margin-top: 12px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.amenity-tag {
+    flex-grow: 1;
+    background: #f0f0f0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    min-width: fit-content;
+}
+
+.modal-actions {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.modal-actions button,
+.modal-actions a {
+    flex-grow: 1;
+    padding: 12px 0;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-actions button:nth-of-type(1) {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.modal-actions a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.modal-actions a:hover {
+    background-color: var(--accent-color);
+    border-color: transparent;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.modal-actions button:nth-of-type(1):hover {
+    border-color: var(--accent-color);
+    background-color: #d71b1b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 425px) {
+    .modal-image {
+        height: 200px;
+    }
+
+    .modal-name-type {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .modal-name-type span {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .modal-info {
+        padding: 16px;
+    }
+}
